@@ -1,0 +1,31 @@
+{
+  "n_train": 13397,
+  "n_test": 6603,
+  "split_date": "2025-09-01",
+  "renewal_rate_test": 0.49901559897016506,
+  "auc_score": 0.7849596692067604,
+  "auc_score_ci95": [
+    0.7739968975059472,
+    0.7950744305297144
+  ],
+  "ks_score": 0.43992436600103124,
+  "auc_gbm": 0.8218267941056123,
+  "auc_gbm_ci95": [
+    0.8119599886704834,
+    0.8314060448896002
+  ],
+  "ks_gbm": 0.48677927973386814,
+  "auc_gap_gbm_minus_score": 0.03686712489885191,
+  "auc_gap_ci95": [
+    0.030512172131145127,
+    0.04341342106644619
+  ],
+  "top_decile_lift_score": 1.833002376305001,
+  "top_decile_lift_gbm": 1.899437388296286,
+  "top2_decile_churn_captured_score": 0.3524788391777509,
+  "top2_decile_churn_captured_gbm": 0.36215235792019346,
+  "churn_override_rate": 0.14372255035589884,
+  "churn_override_renewal_rate": 0.10221285563751317,
+  "gbm_iterations": 140,
+  "gbm_n_features": 216
+}

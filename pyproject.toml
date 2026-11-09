@@ -1,0 +1,15 @@
+[project]
+name = "renewal-scoring"
+version = "0.1.0"
+description = "Interpretable merchant renewal-risk scoring for a POS SaaS (clean-room, synthetic data)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["renewal_scoring"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+addopts = "-q"

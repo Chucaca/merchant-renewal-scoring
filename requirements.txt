@@ -1,0 +1,17 @@
+numpy>=1.26
+pandas>=2.2
+scipy>=1.11
+scikit-learn>=1.4
+matplotlib>=3.8
+pydantic>=2.6
+fastapi>=0.110
+uvicorn>=0.27
+httpx>=0.27        # FastAPI TestClient
+pytest>=8.0
+
+# Optional (imported lazily; everything works without them)
+# prometheus_client>=0.20   # real Prometheus metrics at /metrics
+# instructor>=1.9           # LLM summaries (with openai or google-genai)
+# openai>=1.40
+# google-genai>=1.0
+# redis>=5.0                # production cache backend
